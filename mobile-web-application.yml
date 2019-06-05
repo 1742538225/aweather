@@ -1,6 +1,6 @@
 spring:
   application:
-    name: aweather-mobile-web
+    name: AWEATHER-MOBILE-WEB
 
 server:
   port: 8763

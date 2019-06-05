@@ -1,6 +1,6 @@
 spring:
   application:
-    name: aweather-eureka
+    name: AWEATHER-EUREKA
     
 # 注册中心的端口号
 server:
