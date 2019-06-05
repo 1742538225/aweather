@@ -22,3 +22,4 @@ eureka:
     service-url:		
       # 重点!配置注册中心的地址
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+---
