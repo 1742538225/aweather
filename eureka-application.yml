@@ -1,7 +1,6 @@
 spring:
-  profiles: dev
   application:
-    name: aweather-eureka-dev
+    name: aweather-eureka
     
 # 注册中心的端口号
 server:
@@ -20,4 +19,3 @@ eureka:
     service-url:		
       # 重点!配置注册中心的地址
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
----
