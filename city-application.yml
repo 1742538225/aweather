@@ -8,7 +8,7 @@ eureka:
 
 spring:
   application:
-    name: AWEATHER-CITY
+    name: aweather-city
   datasource:
     username: root
     password: root
