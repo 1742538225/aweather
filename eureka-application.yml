@@ -1,16 +1,11 @@
 spring:
   application:
     name: aweather-eureka
-    
-# 注册中心的端口号
 server:
   port: 8761			
-  
-# 注册中心的ip
 eureka:
   instance:
     hostname: localhost		
-
   client:
     register-with-eureka: false		
     fetch-registry: false		
