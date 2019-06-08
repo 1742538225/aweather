@@ -12,4 +12,9 @@ eureka:
       
 feign:
   hystrix:
-    enabled: false
+    enabled: true
+  client:
+    config:
+      default:
+        connect-timeout: 20000
+        read-timeout: 20000
