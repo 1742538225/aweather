@@ -21,7 +21,7 @@ spring:
         - Path=/mobile/**
         filters:
         - StripPrefix=1
-      - id: aweather-mobile-web
+      - id: aweather-pay-web
         uri: lb://AWEATHER-PAY-WEB
         predicates:
         - Path=/pay/**
