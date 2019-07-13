@@ -31,11 +31,3 @@ spring:
     filters: stat,wall,log4j
     use-global-data-source-stat: true
     connect-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-    stat-view-servlet:
-      login-username: admin
-      login-password: 123456
-      reset-enable: false
-      url-pattern: /druid/*
-    web-stat-filter:
-      url-pattern: /*
-      exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*"
