@@ -1,6 +1,8 @@
 spring:
   application:
-    name: aweather-mobile-web
+    name: aweather-mobile-web  
+  main:
+    allow-bean-definition-overriding: true
 
 server:
   port: 8763
